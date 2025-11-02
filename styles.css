@@ -94,11 +94,11 @@ body {
 
 /* cards */
 .card {
-    background-color: #b8e0d275; 
+    background-color: #b8e0d275;
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .card-img-top {
@@ -137,4 +137,10 @@ body {
         padding: 0.6rem 1.2rem;
         font-size: 1rem;
     }
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+    width: 100%;
 }
