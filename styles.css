@@ -144,6 +144,16 @@ section {
   padding-right: 1rem;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @media (min-width: 992px) {
   section {
     padding-left: 0;
